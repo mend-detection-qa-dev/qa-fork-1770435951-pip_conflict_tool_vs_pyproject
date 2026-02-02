@@ -3,6 +3,11 @@ name = "test-pip-tool-conflict"
 version = "0.1.0"
 requires-python = ">=3.10"
 
+[tool.poetry]
+name =  "test-pip-tool-conflict"
+version = "0.1.0"
+description = "Project description"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
